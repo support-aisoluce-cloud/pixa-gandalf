@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+runs/
+.tactic_scores.json
+*.db
+.DS_Store
