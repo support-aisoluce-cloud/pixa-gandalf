@@ -1,4 +1,10 @@
-"""Curated corpus of canonical successful jailbreak payloads.
+"""Curated corpus of canonical, publicly-documented jailbreak payloads.
+
+RESPONSIBLE USE: these are well-known, published prompt-injection techniques,
+included here solely as few-shot exemplars to seed payloads against the
+authorized Gandalf CTF target (gandalf.lakera.ai — a platform built to be
+attacked). This code cannot be pointed at any other system (see agent/adapters.py).
+Do not repurpose these techniques against any system you are not authorized to test.
 
 Used as **few-shot exemplars** in the PIXA-RED system prompt. When the brain
 generates the next payload it sees 2-3 high-leverage examples that match the
