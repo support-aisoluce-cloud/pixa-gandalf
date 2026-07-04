@@ -1,4 +1,4 @@
-# pixa-gandalf
+# gandalf-redteam-agent
 
 An autonomous agent that solves the [Gandalf](https://gandalf.lakera.ai) prompt-injection
 challenge by Lakera. It plays the attacker: for each level it generates a payload,
@@ -38,7 +38,7 @@ filtered so the agent never fools itself.
 ## Quick start
 
 ```bash
-git clone <your-fork-url> pixa-gandalf && cd pixa-gandalf
+git clone <your-fork-url> gandalf-redteam-agent && cd gandalf-redteam-agent
 pip install -r requirements.txt
 cp .env.example .env          # then edit .env with YOUR provider + key
 python solve.py --start 1 --end 7
@@ -82,7 +82,7 @@ capable model clears the full ladder.
 ## Project layout
 
 ```
-pixa-gandalf/
+gandalf-redteam-agent/
 ├── solve.py            CLI entry point (bring your own key)
 ├── agent/
 │   ├── pixa.py         agent core — ReAct loop, tactics, verification
